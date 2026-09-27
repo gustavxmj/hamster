@@ -10,7 +10,7 @@ function make_hamster () {
         ....fe4444414111ff.
         ....fe4444f1f1113f.
         ...fe44444fff11111f
-        ...fe444411f1111f1f
+        ...fe444411f1114f1f
         ..fee4441111111f11f
         ..fe4444411111f1ff.
         .f444444eef4444f4f.
