@@ -13,9 +13,9 @@ function make_hamster () {
         ...fe444411f1111f1f
         ..fee4441111111f11f
         ..fe4444411111f1ff.
-        .f444444eefbbb4f4f.
+        .f444444eef4444f4f.
         .f4444444eef44fbef.
-        .f4444ee44444ffeef.
+        .f4444ee44414ffeef.
         f4444eeee444fbbff..
         f4444444efffb11b4f.
         fe4444411bb311114f.
@@ -23,7 +23,7 @@ function make_hamster () {
         .fe4444411111111ef.
         .feeee4441111114f..
         ..feeeee444114ffe..
-        ...fffeeffefff41f..
+        ...fffeeff4fff41f..
         ......fe14f...ff...
         .......fff.........
         `, SpriteKind.Player)
