@@ -104,6 +104,33 @@ game.onUpdateInterval(500, function () {
         true
         )
     } else {
-    	
+        hamster.setImage(img`
+            ............ff.....
+            ...........f3bf....
+            .....ff.fff3f3f....
+            ....fb3f44414ef....
+            ....f3f3444444ef...
+            ....f33e44444444f..
+            .....ee444444114f..
+            ....fe4444414111ff.
+            ....fe4444f1f1113f.
+            ...fe44444fff11111f
+            ...fe444411f1114f1f
+            ..fee4441111111f11f
+            ..fe4444411111f1ff.
+            .f444444eef4444f4f.
+            .f4444444eef44fbef.
+            .f4444ee44414ffeef.
+            f4444eeee444fbbff..
+            f4444444efffb11b4f.
+            fe4444411bb311114f.
+            fe444441111111114f.
+            .fe4444411111111ef.
+            .feeee4441111111ef.
+            ..feeeee44411114f..
+            ...fffeeff4ff4ffe..
+            ......fe14f..f41f..
+            .......fff....ff...
+            `)
     }
 })
