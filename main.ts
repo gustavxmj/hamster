@@ -27,6 +27,10 @@ function make_hamster () {
         ......fe14f...ff...
         .......fff.........
         `, SpriteKind.Player)
+    controller.moveSprite(hamster)
+    scene.cameraFollowSprite(hamster)
 }
 let hamster: Sprite = null
+scene.setBackgroundColor(9)
+tiles.setCurrentTilemap(tilemap`level1`)
 make_hamster()
