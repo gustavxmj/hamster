@@ -1,3 +1,7 @@
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
+    info.changeLifeBy(-1)
+    tiles.setTileAt(location, assets.tile`transparency16`)
+})
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     hamster,
@@ -89,6 +93,7 @@ function make_hamster () {
         ......fe14f..f41f..
         .......fff....ff...
         `, SpriteKind.Player)
+    info.setLife(3)
     controller.moveSprite(hamster)
     scene.cameraFollowSprite(hamster)
 }
