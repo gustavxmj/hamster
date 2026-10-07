@@ -1,6 +1,13 @@
+namespace SpriteKind {
+    export const hjerte = SpriteKind.create()
+}
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
     info.changeLifeBy(-1)
     tiles.setTileAt(location, assets.tile`transparency16`)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.hjerte, function (sprite, otherSprite) {
+    info.changeLifeBy(1)
+    sprites.destroy(hjerte)
 })
 function make_hjerte () {
     for (let value of tiles.getTilesByType(assets.tile`myTile2`)) {
@@ -21,7 +28,7 @@ function make_hjerte () {
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
-            `, SpriteKind.Player)
+            `, SpriteKind.hjerte)
         animation.runImageAnimation(
         hjerte,
         [img`
