@@ -349,3 +349,4 @@ let hjerte: Sprite = null
 scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`level1`)
 make_hamster()
+make_hjerte()
